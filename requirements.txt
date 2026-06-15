@@ -1,0 +1,16 @@
+pandas
+numpy
+xgboost
+scikit-learn
+joblib
+scipy
+requests
+fastapi
+uvicorn
+celery
+redis
+pydantic
+streamlit
+folium
+streamlit-folium
+holidays

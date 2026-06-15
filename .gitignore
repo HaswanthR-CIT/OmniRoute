@@ -1,0 +1,30 @@
+# Environments
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Data & Models
+data/*.csv
+data/*.db
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
+
+# Custom Exclusions
+project_explanation.txt
+.gemini/

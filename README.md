@@ -143,6 +143,7 @@ OmniRoute/
 ├── run_pipeline.py         # Master script to run data generation -> ingest -> train
 ├── train_model.py          # Model Arena (Ridge vs RF vs XGBoost)
 ├── requirements.txt        # Python dependencies
+├── POWERBI_GUIDE.md        # Comprehensive guide for Power BI Dashboard & DAX
 ├── data/
 │   ├── dataset_gen.py      # Script to generate synthetic bus data
 │   └── omniroute.db        # SQLite database (Generated locally, Git ignored)
@@ -157,6 +158,20 @@ OmniRoute/
 
 ---
 
+## 📊 Power BI Executive Analytics
+
+In addition to the React web app, this project supports an enterprise **Power BI Executive Dashboard** which connects directly to the local SQLite database.
+
+We have prepared a comprehensive guide to help you build, optimize, and present this dashboard. Read it here:
+👉 **[POWERBI_GUIDE.md](file:///d:/Projects/OmniRoute/POWERBI_GUIDE.md)**
+
+### Key Business Insights Highlighted:
+- **AI Revenue Lift**: Measures the financial yield of the dynamic pricing model vs static base prices.
+- **Occupancy & Wasted Logistics Cost**: Track under-capacity vehicles to optimize route planning.
+- **Time Intelligence**: View Year-over-Year (YoY) growths and 30-day moving averages.
+- **Row-Level Security (RLS)**: Enforces multi-tenancy rules ensuring operators only see their own data.
+
+---
 
 <div align="center">
   <sub>Haswanth R</sub>
